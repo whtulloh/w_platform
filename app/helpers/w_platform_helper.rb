@@ -42,7 +42,7 @@ module WPlatformHelper
             back_url = request.referer.blank? ? WPlatformConfig.appschef_url : request.referer
             redirect_to back_url
           else
-            flash[:error] = "Sorry, you dont have permission to open the page !"
+            flash[:notice] = "Sorry, you dont have permission to open the page !"
             redirect_to "/"
           end
         end
