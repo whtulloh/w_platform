@@ -1,6 +1,10 @@
 = WPlatform Gem
 
-  This is Gem for Appschef API.
+  This is Gem for Appschef API, and i used only for Automation.
+
+  The master WPlatform gem for Appschef on here https://github.com/febyartandi/w_platform.git
+  I forked it to add some configuration only for Automation.
+
   Appschef is Software as a Service from Indonesia.
   For more infortmaion about Apsschef, please see https://appschef.com
 
