@@ -32,6 +32,14 @@ module WPlatformHelper
     end
     features
   end
+  
+  def current_token
+    token = {}
+    unless session[:w_token].blank?
+      token= session[:w_token]
+    end
+    token
+  end
 
   def check_user_access(skipped_controllers_actions=[])
     controller_name, action_name = assign_controller_and_action_name
